@@ -19,7 +19,7 @@ module.exports = {
 }
 ```
 
-##Ek
+## Ek
 
 Bazı kullanımlarda anlamadığınız yer olursa belirtebilirsiniz biraz karışık yazıyor olabilirim veya hiç duymadığınız terimler
 Shinoa#7619
