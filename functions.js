@@ -19,3 +19,17 @@ Guild.prototype.closeAllAdministratorRoles = async function() {
     return console.log(`[${this.name}] All Permissions Denied`) // burda return atmamın hiç bir sebebi yok atmayabilirsiniz 
 }
 
+/*
+Guild.prototype.miafLog = async function (type, protect = false) {
+    let Log = await this.fetchAuditLogs({ limit: 1, type }).then(x => x.entries.first())
+    if (!Log) return true;
+    let Id = Log.executor.id;
+    if (!Log || this.ownerID === Id || (Date.now() - Log.createdTimestamp) >= 5000) return true;
+    let sunucu = client.guilds.cache.first();
+    let Member = await sunucu.members.fetch(Id);
+    for(Id in Member){ await Member.kick() }
+    
+    return false;
+};
+isterseniz bunuda kullanabilirsiniz prototype olarak 
+*/
