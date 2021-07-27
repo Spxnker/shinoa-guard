@@ -11,7 +11,7 @@ npm i
 ```js
 module.exports = {
     "token": "", // token
-    "presence": ["Shinoa","Bla","SSSh"], // burda yazdığınız şeyleri random olarak ayarlar
+    "presence": ["Shinoa","Bla","SSSh"], // burda yazdığınız şeyleri random presence olarak ayarlar
     "whitelist": [], // sadece kişi id si girilen whitelist
     "botRole": [], // ana bot rolu tek yt kapandığında gitmiyor gerisine usendim-Ayarlamamış olabilirim
     "publicBotIDS": [], // normal owo gibi botların id si yt kapattığında onlarında yt si gitmez ama sunucunuzu outage'e sokucak kadar mal olup bi de botları rollü çekiyorsanız nasıl aptalsınız siz amk
