@@ -1,5 +1,5 @@
 # Sa aşklarım tatilde sıkıntıdan yazdığım eksik bir bot
-Botu tatilde aşırı sıkıntıdan yazdığım bir bot kafanıza göre kullanabilirsiniz eksikler var biliyorum ama yt kapatın çalışması gerek eval ile denemişti
+Botu tatilde aşırı sıkıntıdan yazdığım bir bot kafanıza göre kullanabilirsiniz eksikler var biliyorum ama yt kapatın çalışması gerek eval ile denemiştim ve eventlerin çoğu eksik örnek alarak yapabilirsiniz
 
 ## Kurulum
 modülleri indirebilirsiniz
