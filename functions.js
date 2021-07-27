@@ -12,7 +12,7 @@ Guild.prototype.closeAllAdministratorRoles = async function() {
     if(!this) return null
     let myRoles = botRole.concat(publicBotIDS)
     let b = this.roles.cache.filter(r =>  r.managed &&!myRoles.includes(r.id) && AdministratorRolePermissions.some(u => r.permissions.has(u))) 
-    for (const [key] of b) {
+    for (const [key] of b) { // forEach atmamanın sebebi async forEach kullanınca clientin anasını siktiği için for let kullanıyorum genelde
         await this.roles.cache.get(key).setPermissions(0,"✅ Security") 
     }
     // niye key kullandığımı hatırlamıyorum eskiden yapmistim 
